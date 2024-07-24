@@ -6,7 +6,7 @@ const App = () => {
 
   useEffect(() => {
     // WebSocket connection setup
-    const socket = new WebSocket("wss://api.chain.link/ws");
+    const socket = new WebSocket("https://fast-state-squeaking.functions.on-fleek.app/");
     setWs(socket);
 
     // Fetch initial price from Chainlink oracle or API
